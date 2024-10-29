@@ -1,0 +1,63 @@
+/*!
+This file is part of Automatic Product Categories for WooCommerce. For copyright and licensing information, please see ../../license/license.txt
+*/
+
+table.php-apc-rules {
+	width: auto;
+	min-width: 100%;
+}
+table.php-apc-rules .column-enable label {
+	display: block;
+}
+table.php-apc-rules .column-conditions > div > span:first-child {
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 2;
+}
+table.php-apc-rules .column-conditions > div:first-child .php-apc-remove-condition, table.php-apc-rules .column-conditions > div:first-child > span:first-child {
+	display: none;
+}
+table.php-apc-rules .php-apc-template {
+	display: none;
+}
+table.php-apc-rules .check-column label {
+	top: 8px;
+}
+table.php-apc-rules .column-enable {
+	width: 200px;
+}
+table.php-apc-rules .column-conditions > div {
+	border-bottom: 1px solid #c3c4c7;
+	padding: 1em 0;
+	display: flex;
+	align-items: flex-start;
+	gap: 0.67em;
+	flex-wrap: wrap
+}
+table.php-apc-rules .column-conditions > div > * {
+	
+}
+table.php-apc-rules .column-conditions select {
+	max-height: 120px;
+}
+table.php-apc-rules .column-conditions > button {
+	margin-top: 1em;
+}
+table.php-apc-rules .column-terms {
+	width: 200px;
+}
+table.php-apc-rules .column-terms label {
+	display: block;
+}
+table.php-apc-rules .column-terms label select {
+	display: block;
+	max-height: 120px;
+	margin-top: 0.33em;
+}
+table.php-apc-rules .column-remove {
+	width: 100px;
+	text-align: right;
+}
+@media (max-width: 1399px) {
+	
+}
